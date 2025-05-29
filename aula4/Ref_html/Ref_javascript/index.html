@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Calculadora - Funções Individuais</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <h1>Funções com Parâmetros</h1>
+  <main>
+    <section>
+      <h2>Soma</h2>
+      <input type="number" id="n1" placeholder="Número 1">
+      <input type="number" id="n2" placeholder="Número 2">
+      <button onclick="calcular('n1', 'n2', 'respSoma', '+')">Calcular</button>
+      <p id="respSoma"></p>
+    </section>
+
+    <section>
+      <h2>Subtração</h2>
+      <input type="number" id="n3" placeholder="Número 1">
+      <input type="number" id="n4" placeholder="Número 2">
+      <button onclick="calcular('n3', 'n4', 'respSub', '-')">Calcular</button>
+      <p id="respSub"></p>
+    </section>
+
+    <section>
+      <h2>Multiplicação</h2>
+      <input type="number" id="n5" placeholder="Número 1">
+      <input type="number" id="n6" placeholder="Número 2">
+      <button onclick="calcular('n5', 'n6', 'respMulti', '*')">Calcular</button>
+      <p id="respMulti"></p>
+    </section>
+
+    <section>
+      <h2>Divisão</h2>
+      <input type="number" id="n7" placeholder="Número 1">
+      <input type="number" id="n8" placeholder="Número 2">
+      <button onclick="calcular('n7', 'n8', 'respDiv', '/')">Calcular</button>
+      <p id="respDiv"></p>
+    </section>
+
+    <section>
+      <h2>Bhaskara</h2>
+      <input type="number" id="a" placeholder="Coeficiente a">
+      <input type="number" id="b" placeholder="Coeficiente b">
+      <input type="number" id="c" placeholder="Coeficiente c">
+      <button onclick="calcularBhaskara()">Calcular</button>
+      <p id="respBhaskara"></p>
+    </section>
+  </main>
+</body>
+</html>

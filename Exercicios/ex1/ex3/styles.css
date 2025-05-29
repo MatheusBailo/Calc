@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#s2{
+    background-image: url("./assets/HD-wallpaper-night-mountains-minimalist-8k-mountains-minimalism-minimalist-artist-artwork-digital-art-dark-black.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    
+}
+.cartao{
+    background-color: #020202a9;
+    width: 16rem;
+    height:450px;
+    border: 2px solid #351e90;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 200ms ease-in-out;
+}

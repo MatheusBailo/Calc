@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matemática</title>
+   <link rel="stylesheet" href="mat.css">
+</head>
+<body>
+    <h1>Contas matemáticas</h1>
+    <main>
+
+        <section>
+            <h2>soma</h2>
+            <label for="n1">Primeiro Número:</label>
+            <input type="text" id="n1" placeholder="Digite o primeiro numero">
+            <label for="n2">Segundo Número:</label>
+            <input type="text" id="n2" placeholder="Digite o segundo numero">
+            <button onclick="somar()">Somar</button>
+            <p>Resultado: <span id="res"></span><p>
+    
+        </section>
+        <section>
+            <h2>Subtração</h2>
+            <label for="n3">Primeiro Número:</label>
+            <input type="text" id="n3" placeholder="Digite o primeiro numero">
+            <label for="n4">Segundo Número:</label>
+            <input type="text" id="n4" placeholder="Digite o segundo numero">
+            <button onclick="Subtração()">diminuir</button>
+            <p>Resultado: <span id="resu"></span><p>
+        </section>
+        <section>
+            <h2>Multiplicação</h2>
+            <label for="n5">Primeiro Número:</label>
+            <input type="text" id="n5" placeholder="Digite o primeiro numero">
+            <label for="n6">Segundo Número:</label>
+            <input type="text" id="n6" placeholder="Digite o segundo numero">
+            <button onclick="Multiplicação()">Multiplicar</button>
+            <p>Resultado: <span id="resul"></span><p>
+        </section>
+        <section>
+            <h2>Divisão</h2>
+            <label for="n7">Primeiro Número:</label>
+            <input type="text" id="n7" placeholder="Digite o primeiro numero">
+            <label for="n8">Segundo Número:</label>
+            <input type="text" id="n8" placeholder="Digite o segundo numero">
+            <button onclick="Divisão()">Divisão</button>
+            <p>Resultado: <span id="result"></span><p>
+        </section>
+
+
+    <section>
+        <b><h2>IMC</h2></b>
+        <input type="text" id="peso" placeholder="Digite o seu peso">
+        <input type="text" id="altura" placeholder="Digite sua altura">
+        <button onclick="IMC()">CALCULAR</button>
+        <p id="resPeso">Resultado:</p>
+        <p id="msgIMC"></p>
+    
+    </section>
+    
+    <section>
+        <b><h2>Entrada festa</h2></b>
+        <input type="text" id="ano" placeholder="Informe ano de nascimento">
+        <button onclick="verif()">CALCULAR</button>
+        <p id="resIdade">Resultado:</p>
+        <p id="msgIdade"></p>
+    </section>
+    
+    <script src="mat.js"></script>
+    
+</body>
+</html>
